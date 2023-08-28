@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+.main-header {
+    background-image: url(/Kunjifuri/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+.main-nav ul li{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.band{
+    height: 300px;
+}
+footer img {
+    height: 5px;
+}
+
+.items img {
+    height: 175px;
+}
+
