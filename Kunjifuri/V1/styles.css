@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Merriweather:ital@0;1&family=Raleway:wght@400;700&family=Work+Sans:wght@400;500;800&display=swap');
+
+@font-face {
+    font-family: Snubnose;
+    src: url(/Kunjifuri/v1/fonts/snubnose\ DEMO.otf);
+}
+html {
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.content {
+    background-color:rgb(194, 142, 0);
+    margin: 20 auto;
+    max-width: 780px;
+    border-radius: 10px;
+    border: black 1px solid;
+    box-shadow: .4rem .4rem #000000da;
+
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url(/Kunjifuri/v1/images/banner.jpg);  
+    background-size: cover;
+    background-position:50% 40%;
+    padding-bottom: 30px;
+    font-family: Snubnose;
+    background-blend-mode: multiply;
+}
+
+.main-nav ul{
+    margin: 0;
+    text-align: center;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: rgb(194, 142, 0);
+    padding:.5em;
+    display: inline-block;
+    
+}
+
+.main-nav li{
+    display: inline-block; 
+    font-size: 1.5rem;
+    padding: 0 5%;
+    letter-spacing: 2;
+}
+
+.main-nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    letter-spacing: .1em;
+    color: rgba(194, 142, 0,);
+    font-family: Snubnose;
+    
+}
+
+.band-name-large img{
+    width: 80%;
+    opacity: .95;
+}
+
+.container {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    font-family: Raleway;
+    justify-content: center;
+    color: white;
+}
+.merch-container {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    padding: 1em 1.5em;
+    font-family: Raleway;
+    justify-content: space-around;
+}
+.main-item {
+    display: inline-block;
+    width: 100%;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.video {
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    margin: 10px auto;
+    padding: 1rem;
+  
+}
+
+br {
+    line-height: .4em;
+}
+.band{
+    float: left;
+    height: 160px;
+    object-fit: cover;
+    object-position: 0% 60%;
+    width: 350px;
+    margin: 15px 15px 15px 0;
+    border-radius: 10px;
+    box-shadow: .4rem .4rem #3da9edb1;
+    
+}
+.main-footer {
+    background-color:  rgb(194, 142, 0);
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%
+}
+.main-footer li{
+    margin: 0 5%;
+    display: inline-block;
+}
+.main-footer ul {
+    text-align: center;
+    margin-top: 5px;
+}
+.band-name-small {
+    font-size: 1.5em;
+    color: white;
+}
+footer img {
+    height: 20px;
+}
+ul li{
+    display: inline-block;
+}
+
+.item img {
+    height: 175px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+    margin: auto;
+    align-items: start;
+    height: 100%;
+    justify-items: space-between;
+}
+.cart-item {
+    display: inline-flex;
+    justify-items:space-between;
+    flex-direction: row;
+}
+
+.content {
+    text-align: center;
+}
